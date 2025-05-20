@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775496989264",
+    "project_id": "historicalapp-5032b",
+    "storage_bucket": "historicalapp-5032b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775496989264:android:2ea3d218ff59cfc7afef55",
+        "android_client_info": {
+          "package_name": "com.eshaan.historicalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "${{secrets.GOOGLE_API_KEY}}"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
