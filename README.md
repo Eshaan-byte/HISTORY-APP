@@ -1,4 +1,4 @@
-<img width="576" alt="Screenshot 2025-05-21 at 2 14 55 pm" src="https://github.com/user-attachments/assets/239e74a0-4ed3-4eb3-8514-7f3e662ccc8f" />🏛️ Historical App
+🏛️ Historical App
 An Android application that demonstrates best practices in modern Android development including API integration, clean architecture, and lifecycle-aware UI design.
 
 📱 Features
@@ -49,20 +49,7 @@ Navigate to the test directory.
 Right-click on the folder and select Run Tests.
 
 📂 Project Structure Highlights
-HistoricalApp/
-data/ – Remote and local data sources
-repository/
-model/
-domain/ – Business logic and core models
-usecase/
-model/
-presentation/ – UI layer: Activities, Fragments, ViewModels
-login/
-dashboard/
-details/
-di/ – Hilt modules for dependency injection
-network/ – Retrofit API service definitions
-utils/ – Utility classes and helpers
+<img width="576" alt="Screenshot 2025-05-21 at 2 14 55 pm" src="https://github.com/user-attachments/assets/239e74a0-4ed3-4eb3-8514-7f3e662ccc8f" />
 
 
 🛠️ Requirements
