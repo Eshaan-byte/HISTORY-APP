@@ -51,12 +51,20 @@ Right-click on the folder and select Run Tests.
 📂 Project Structure Highlights
 
 HistoricalApp/
-├── data/               # Remote and local data sources
-├── domain/             # Business logic and models
-├── presentation/       # Activities, Fragments, ViewModels
-├── di/                 # Hilt modules for dependency injection
-├── network/            # Retrofit service interfaces
-└── utils/              # Utility and helper classes
+├── data/          # Remote and local data sources
+│   ├── repository/
+│   └── model/
+├── domain/        # Business logic and core models
+│   ├── usecase/
+│   └── model/
+├── presentation/  # UI layer: Activities, Fragments, ViewModels
+│   ├── login/
+│   ├── dashboard/
+│   └── details/
+├── di/            # Hilt modules for dependency injection
+├── network/       # Retrofit API service definitions
+└── utils/         # Utility classes and helpers
+
 
 🛠️ Requirements
 Android Studio Hedgehog or later
